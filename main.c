@@ -5,9 +5,7 @@
 returns all the Armstrong, Palindrome, Prime and Storng (in this order) numbers in between the to numbers including them.*/
 int main() { 
     int i, x, y, min=0, max=0;
-    printf("please enter your first number:  \n");
     scanf(" %d" , &x);
-    printf("please enter your second number:   \n");
     scanf(" %d" , &y);
     if(x>y){
         min=y;
@@ -17,7 +15,7 @@ int main() {
         min=x;
         max=y;
     }
-    printf("\nThe Armstrong numbers are:");
+    printf("The Armstrong numbers are:");
     for(i=min;i<=max;i++){
         if(isArmstrong(i)==TRUE){
             printf("%d " , i);
