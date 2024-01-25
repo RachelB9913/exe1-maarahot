@@ -23,21 +23,21 @@ int main() {
     }
 
     
-    printf("\nThe Palindromes are: ");
+    printf("\nThe Palindromes are:");
     for(i=min;i<=max;i++){
         if(isPalindrome(i)==TRUE){
             printf("%d " , i);
         }
     }
 
-    printf("\nThe Prime numbers are: ");
+    printf("\nThe Prime numbers are:");
     for(i=min;i<=max;i++){
         if(isPrime(i)==TRUE){
             printf("%d " , i);
         }
     }
     
-    printf("\nThe Strong numbers are: ");
+    printf("\nThe Strong numbers are:");
     for(i=min;i<=max;i++){
         if(isStrong(i)==TRUE){
             printf("%d " , i);
